@@ -1,0 +1,91 @@
+/* Existing CSS styles remain unchanged */
+
+/* Existing CSS styles remain unchanged */
+
+header {
+    background-color: #3b7d02; /* Green theme */
+    color: white;
+    padding: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header appears above other content */
+}
+.head{
+    margin-bottom: 10px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+}
+
+
+
+.listings-section {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center;
+}
+
+.listing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.listing img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.listing-info {
+    text-align: center;
+}
+
+.listing-info h3 {
+    margin-top: 0;
+}
+
+.listing-info p {
+    margin: 5px 0;
+}
+
+.listing-info button {
+    padding: 10px 20px;
+    background-color: #3b7d02; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.listing-info button:hover {
+    background-color: #2e5d02; /* Darker green on hover */
+}

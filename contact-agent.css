@@ -1,0 +1,129 @@
+/* Existing CSS styles remain unchanged */
+
+header {
+    background-color: #3b7d02; /* Green theme */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header appears above other content */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+}
+
+.listings-section {
+    padding: 80px 0 50px; /* Add top padding to account for fixed header */
+    background-color: #e5f7de; /* Light green background */
+    text-align: center;
+}
+
+.listings-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.listings-section h2 {
+    margin-bottom: 20px;
+}
+
+.listing {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.listing h3 {
+    margin-bottom: 10px;
+}
+
+.listing p {
+    margin-bottom: 15px;
+}
+
+.listing .contact-btn {
+    padding: 10px 20px;
+    background-color: #3b7d02; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.listing .contact-btn:hover {
+    background-color: #2e5d02; /* Darker green on hover */
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1001; /* Sits above the header */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3b7d02; /* Green theme */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

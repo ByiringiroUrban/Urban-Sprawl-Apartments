@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">Apartment Rentals</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to learn more about our rental services? Contact us using the form below or through our contact information.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> byiringirourban20@gmail.com</p>
+                <p><strong>Phone:</strong> (+250) 788-854-243</p>
+                <p><strong>Address:</strong>  339F+43 Kigali St, Kigali, Rwanda</p>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Apartment Rentals. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

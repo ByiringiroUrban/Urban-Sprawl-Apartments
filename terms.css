@@ -1,0 +1,75 @@
+/* Existing CSS styles remain unchanged */
+
+header {
+    background-color: #3b7d02; /* Green theme */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header appears above other content */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+}
+
+.terms-section {
+    padding: 80px 0 50px; /* Add top padding to account for fixed header */
+    background-color: #e5f7de; /* Light green background */
+    text-align: center;
+}
+
+.terms-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.terms-section h2 {
+    margin-bottom: 20px;
+}
+
+.terms-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.terms-section p, .terms-section ul {
+    margin-bottom: 15px;
+}
+
+.terms-section ul {
+    list-style: disc inside;
+}
+
+footer {
+    background-color: #3b7d02; /* Green theme */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
